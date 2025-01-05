@@ -1,0 +1,17 @@
+.projects-section {
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.links {
+  margin: 0 10% 0 10%;
+  display: flex;
+  justify-content: space-between;
+}
