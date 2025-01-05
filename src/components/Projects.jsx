@@ -57,7 +57,7 @@ const projects = [
     ],
     technologies: "Solidity, Ethereum, Hardhat, React.js.",
     git: "https://github.com/kapildev5262/KD-Auction",
-    site: "https://krishna-funds.vercel.app",
+    site: "https://kd-auction.vercel.app",
   },
   {
     title: "Stellar NFT Project",
