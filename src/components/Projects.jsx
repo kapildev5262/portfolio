@@ -83,7 +83,7 @@ const projects = [
     description: ["A login and home page frontend developed as an assignment for Codeantai."],
     technologies: "React.js, JavaScript, HTML, CSS.",
     git: "https://github.com/kapildev5262/login-home-page",
-    site: "https://krishna-funds.vercel.app",
+    site: "https://login-home-page-silk.vercel.app/",
   },
 ];
 
