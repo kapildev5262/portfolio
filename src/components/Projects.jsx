@@ -31,7 +31,7 @@ const projects = [
     ],
     technologies: "Solidity, Node.js, Hardhat, Chainlink, Next.js, Ethereum.",
     git: "https://github.com/kapildev5262/Fullstack-Hardhat-Smart-Contract-Lottery",
-    site: "https://krishna-funds.vercel.app",
+    site: "https://nextjs-smartcontract-lottery-one.vercel.app/",
   },
   {
     title: "Solana Blockchain Projects",
