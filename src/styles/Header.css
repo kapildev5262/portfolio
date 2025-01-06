@@ -1,6 +1,6 @@
 /* Header Styles */
 .header {
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%; /* Ensure full width */
   background-color: rgba(0, 0, 0, 0.8); /* Slight transparency */

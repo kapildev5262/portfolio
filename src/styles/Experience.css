@@ -27,7 +27,7 @@
   transition: transform 0.3s;
 }
 
-.card:hover {
+.card2:hover {
   transform: scale(1.05);
 }
 
@@ -37,12 +37,4 @@
   margin-bottom: 1rem;
 }
 
-.card .title {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-}
 
-.card .description {
-  font-size: 0.9rem;
-  color: white;
-}

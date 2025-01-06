@@ -31,6 +31,7 @@ a {
 .card {
   display: flex;
   flex-direction: column;
+  text-align: left;
   justify-content: space-between;
   background: linear-gradient(45deg, rgba(56, 54, 216, 1) 0%, rgba(0, 197, 255, 1) 50%, rgba(56, 54, 216, 1) 100%);
   color: white;
@@ -39,6 +40,15 @@ a {
   border-radius: 8px;
   padding: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card .title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card .description {
+  font-size: 0.9rem;
+  color: white;
 }
 
 .card:hover {
@@ -54,12 +64,13 @@ a {
   text-decoration: none;
   display: flex;
   flex-direction: row;
+  border: solid 1px blue;
   color: white;
   background-color: #1d4ed8;
   transition: background-color 0.3s ease;
 }
 .link-buttons:hover {
-  background-color: #2563eb;
+  background-color: #2592eb;
 }
 @media (max-width: 768px) {
   h1 {

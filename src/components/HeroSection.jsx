@@ -3,9 +3,9 @@ import "../styles/HeroSection.css";
 
 const HeroSection = () => {
   return (
-    <div className="home">
+    <div id="hero" className="home">
       <h1 className="hero-heading">Building Decentralized Solutions for a Connected World</h1>
-      <section id="hero" className="hero-section">
+      <section className="hero-section">
         <div className="hero-container">
           {/* Professional photo or avatar (optional) */}
           <img src="/assets/profile.jpg" alt="Kapil Dev" className="hero-image" />
