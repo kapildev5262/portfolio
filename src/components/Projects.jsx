@@ -76,7 +76,7 @@ const projects = [
     ],
     technologies: "HTML, CSS, JavaScript, React.js.",
     git: "https://github.com/kapildev5262/KDandCompany",
-    site: "https://krishna-funds.vercel.app",
+    site: "https://kd-and-company.vercel.app/",
   },
   {
     title: "Login-Home Page",
