@@ -1,9 +1,10 @@
 body {
   margin: 0;
-  box-sizing: border-box;
-  background: linear-gradient(to bottom, #00cdac, #02aabd);
-  color: white;
-  font-family: Arial, sans-serif;
+  padding: 0;
+  /* background-color: #f5f3fa; */
+  background-color: #f5f9fd;
+  color: var(--text-color);
+  font-family: 'Your-preferred-font', sans-serif;
 }
 
 .btn-primary {
@@ -21,39 +22,6 @@ body {
 
 .btn-primary:hover {
   background: linear-gradient(90deg, rgba(56, 54, 216, 1) 12%, rgba(0, 197, 255, 1) 100%);
-}
-
-a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  justify-content: space-between;
-  background: linear-gradient(45deg, rgba(56, 54, 216, 1) 0%, rgba(0, 197, 255, 1) 50%, rgba(56, 54, 216, 1) 100%);
-  color: white;
-  min-width: 250px;
-  border: 1px solid #3d8bff;
-  border-radius: 8px;
-  padding: 1rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-.card .title {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-}
-
-.card .description {
-  font-size: 0.9rem;
-  color: white;
-}
-
-.card:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease-in-out;
 }
 
 /* Button base styling */
